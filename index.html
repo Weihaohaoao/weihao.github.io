@@ -44,13 +44,24 @@
     <div class="section">
         <h3>Methodology</h3>
         <p>In this study, we adopt the FastSpeech2 model to adjust the pitch and energy of keywords to synthesize sarcastic speech. First, use the GPT model to identify potential sarcastic keywords in the sentence. Then, in the FastSpeech2 model, the sarcastic expression is emphasized by modifying the position of the control coefficient in the model acting on pitch and energy, and adjusting it at the keyword level. This method allows us to precisely control certain parts of speech without changing the entire sentence, thereby achieving a more natural and effective sarcastic tone synthesis.</p>
+    <div class="section">
         <h3>Results</h3>
         <p>The results of our experiments demonstrated a marked improvement in the naturalness and perceptibility of sarcastic speech when pitch and energy adjustments were made at the keyword level, as opposed to whole sentence adjustments. Listeners were better able to identify and appreciate the intended sarcasm, thus validating the effectiveness of our methodology.</p>
+
+        <h3>Audio Descriptions</h3>
+        <ul>
+            <li>Audio1: Adjust the energy of keywords</li>
+            <li>Audio2: Adjust the pitch of keywords</li>
+            <li>Audio3: Adjust the energy and pitch of keywords</li>
+            <li>Audio4: Adjust the energy and pitch of the entire sentence level</li>
+            <li>Audio5: No adjustments are made</li>
+        </ul>
     </div>
+
 
     <table>
         <tr>
-            <th>Sentence / Group</th>
+            <th>Example / Types</th>
             <th>Audio 1</th>
             <th>Audio 2</th>
             <th>Audio 3</th>
