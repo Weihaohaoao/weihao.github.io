@@ -22,16 +22,6 @@
         audio {
             width: 100%; /* Adjust audio player to fill the cell width */
         }
-        .progress-bar {
-            width: 100%;
-            height: 10px;
-            background-color: #ddd;
-        }
-        .progress {
-            height: 10px;
-            background-color: #4CAF50;
-            width: 0%; /* Adjust this in JavaScript based on audio progress */
-        }
         .section {
             margin-top: 20px;
             margin-bottom: 20px;
@@ -52,46 +42,36 @@
 
     <table>
         <tr>
-            <th>Group</th>
-            <th>Sentence</th>
-            <th>Audio</th>
-            <th>Progress</th>
+            <th>Sentence / Group</th>
+            <th>Audio 1</th>
+            <th>Audio 2</th>
+            <th>Audio 3</th>
+            <th>Audio 4</th>
+            <th>Audio 5</th>
         </tr>
         <tr>
-            <td>Group A</td>
-            <td>TikTok是国际非常热门的一个APP。</td>
-            <td><audio controls>
-                <source src="path_to_your_audio_group_a.mp3" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio></td>
-            <td><div class="progress-bar"><div class="progress" style="width: 20%;"></div></div></td>
+            <td>Sentence 1: TikTok是国际非常热门的一个APP。</td>
+            <td><audio controls><source src="audio1_sentence1.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio2_sentence1.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio3_sentence1.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio4_sentence1.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio5_sentence1.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
         </tr>
         <tr>
-            <td>Group B</td>
-            <td>Sample text here for group B.</td>
-            <td><audio controls>
-                <source src="path_to_your_audio_group_b.mp3" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio></td>
-            <td><div class="progress-bar"><div class="progress" style="width: 50%;"></div></div></td>
+            <td>Sentence 2: Example text for sentence 2.</td>
+            <td><audio controls><source src="audio1_sentence2.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio2_sentence2.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio3_sentence2.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio4_sentence2.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio5_sentence2.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
         </tr>
         <tr>
-            <td>Group C</td>
-            <td>Sample text here for group C.</td>
-            <td><audio controls>
-                <source src="path_to_your_audio_group_c.mp3" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio></td>
-            <td><div class="progress-bar"><div class="progress" style="width: 75%;"></div></div></td>
-        </tr>
-        <tr>
-            <td>Group D</td>
-            <td>最关键的，也许之后能有更好的chance。</td>
-            <td><audio controls>
-                <source src="path_to_your_audio_group_d.mp3" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio></td>
-            <td><div class="progress-bar"><div class="progress" style="width: 30%;"></div></div></td>
+            <td>Sentence 3: 最关键的，也许之后能有更好的chance。</td>
+            <td><audio controls><source src="audio1_sentence3.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio2_sentence3.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio3_sentence3.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio4_sentence3.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
+            <td><audio controls><source src="audio5_sentence3.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></td>
         </tr>
     </table>
 </body>
