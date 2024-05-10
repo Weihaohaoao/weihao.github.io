@@ -26,10 +26,16 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        .author {
+            font-size: 0.8em; /* Smaller font size for the author */
+            margin-top: -10px; /* Adjust spacing */
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Accurate synthesis of sarcastic speech: Research on adjusting pitch and energy at keyword level using FastSpeech2 model</h1>
+    <p class="author">Author: Weihao Jiang</p>
 
     <div class="section">
         <h2>Overview</h2>
@@ -38,6 +44,8 @@
     <div class="section">
         <h2>Methodology</h2>
         <p>In this study, we adopt the FastSpeech2 model to adjust the pitch and energy of keywords to synthesize sarcastic speech. First, use the GPT model to identify potential sarcastic keywords in the sentence. Then, in the FastSpeech2 model, the sarcastic expression is emphasized by modifying the position of the control coefficient in the model acting on pitch and energy, and adjusting it at the keyword level. This method allows us to precisely control certain parts of speech without changing the entire sentence, thereby achieving a more natural and effective sarcastic tone synthesis.</p>
+        <h3>Results</h3>
+        <p>The results of our experiments demonstrated a marked improvement in the naturalness and perceptibility of sarcastic speech when pitch and energy adjustments were made at the keyword level, as opposed to whole sentence adjustments. Listeners were better able to identify and appreciate the intended sarcasm, thus validating the effectiveness of our methodology.</p>
     </div>
 
     <table>
